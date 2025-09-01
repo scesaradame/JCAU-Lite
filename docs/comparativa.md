@@ -31,6 +31,3 @@
 
 > **Nota:** Cada versión mantiene la **sintaxis “nombre(parámetros) → expresión”**; solo se añaden nuevas definiciones.  Por ello la transición de **Lite → Full → Pro** es **compatible hacia atrás**: los scripts escritos para la versión Lite continúan funcionando sin cambios en las versiones más avanzadas. 
 
----  
-
-*¡Listo! Copia este bloque en un archivo llamado `comparativa.md` y tendrás la tabla comparativa lista para ser incluida en la documentación de tu proyecto.* 🚀
