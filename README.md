@@ -64,27 +64,6 @@ Si ya tienes **llama.cpp** compilado y el modelo `llama2-7b-chat.gguf` en el dir
 ./jcau_universal_adapter.sh "¿Cuál es la derivada de x^2?" --llama
 ```
 
-***Si el binario o el modelo faltan, el script continuará funcionando con el motor nativo.***
-
----
-
-## 📂 Estructura del proyecto
-
-```
-JCAU-Lite/
-│
-├─ auto_jcau_inference.py      # Motor nativo + wrapper opcional a LLaMA
-├─ jcau_universal_adapter.sh   # Wrapper Bash
-├─ README.md
-└─ LICENSE (MIT)
-```
-
----
-
-## 🧪 Tests (opcional)
-
-Se incluyen ejemplos de uso en el README. Si deseas añadir pruebas unitarias, puedes crear un directorio `tests/` y usar `pytest`. No es necesario para que el proyecto funcione.
-
 ---
 
 ## 🔮 Futuro del proyecto
@@ -96,34 +75,4 @@ Se incluyen ejemplos de uso en el README. Si deseas añadir pruebas unitarias, p
 
 ## 📄 Licencia
 
-© 2025 **Julio César Adame Urias** – Todos los derechos reservados.
-
----
-
-## Resumen de pasos para que todo funcione en tu máquina
-
-### 1. Clonar
-```bash
-git clone https://github.com/scesaradame/JCAU-Lite.git
-cd JCAU-Lite
-```
-
-### 2. Dar permisos de ejecución al script Bash
-```bash
-chmod +x jcau_universal_adapter.sh
-```
-
-### 3. Ejecutar ejemplos
-```bash
-./jcau_universal_adapter.sh "suma(5,7)"
-./jcau_universal_adapter.sh "eq_lineal(3x-4=5)"
-./jcau_universal_adapter.sh "p ∧ ¬q"
-./jcau_universal_adapter.sh "A ∪ B"
-```
-
-### 4. (Opcional) Usar LLaMA
-*Compila `llama.cpp` y coloca `llama2-7b-chat.gguf` en el directorio.*
-
-```bash
-./jcau_universal_adapter.sh "¿Qué es JCAU?" --llama
-```
+© 2025 **Julio César Adame Urias**
