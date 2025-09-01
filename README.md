@@ -75,4 +75,4 @@ Si ya tienes **llama.cpp** compilado y el modelo `llama2-7b-chat.gguf` en el dir
 
 ## 📄 Licencia
 
-© 2025 **Julio César Adame Urias**
+© 2025 **Julio César Adame Urias** Todos los derechos reservados.
