@@ -42,3 +42,23 @@ l(2x + 3 = 7) → x = 2`
 
 ## Gramática (BNF‑like)
 
+::= ::= | <eq_lineal> | |
+
+::= "suma" "(" "," ")" <eq_lineal> ::= "eq_lineal" "(" ")" ::= { ("∧" | "∨" | "→") }* ::= "∪"
+
+::= [-+]?[0-9]+(.[0-9]+)? ::= "x" ( "+" | "-" ) "=" ::= | "" // si está vacío = 1 ::= | "¬" ::= [a-z] ::= "{" [ ] "}" ::= { "," }* ::= |
+
+
+---
+
+## Cómo usar la spec
+
+1. **Lee la sección “Gramática”.**  
+2. **Implementa un parser** en el lenguaje que prefieras siguiendo esas reglas.  
+3. **Evalúa** usando la semántica descrita en cada bloque.  
+
+> La spec es **autocontenida**; no depende de Python, de `auto_jcau_inference.py` ni de ningún otro archivo. Cualquier IA que reciba este fichero podrá generar automáticamente un intérprete para la plataforma que necesite.  
+
+---  
+
+© 2025 Julio César Adame Urias – Todos los derechos reservados.
