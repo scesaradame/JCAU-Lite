@@ -98,11 +98,9 @@ Se incluyen ejemplos de uso en el README. Si deseas añadir pruebas unitarias, p
 
 © 2025 **Julio César Adame Urias** – Todos los derechos reservados.
 
-*¡Listo! Ahora puedes clonar, ejecutar y experimentar con JCAU Lite sin instalar nada más.*
-
 ---
 
-## 5️⃣ Resumen de pasos para que todo funcione en tu máquina
+## Resumen de pasos para que todo funcione en tu máquina
 
 ### 1. Clonar
 ```bash
